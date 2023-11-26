@@ -1,0 +1,8 @@
+<config>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@name_key='workstationsT2-1,workstationsT2-2,workstationsT2-3,workstationsT2-4']">
+		<unlock_entry item="cntIDCAnimalSnare" unlock_tier="4" />
+	</append>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="25,100" value="1" tags="cntIDCAnimalSnare"/>
+	</append>
+</config>

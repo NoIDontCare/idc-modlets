@@ -1,0 +1,27 @@
+<config>
+	<append xpath="/items">
+		<item name="honeyBee">
+			<property name="CustomIcon" value="bee"/>
+			<property name="DescriptionKey" value="honeyBeeDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapLeadLarge"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="160"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources,Chemicals"/>
+			<property name="DegradationBreaksAfter" value="true"/>
+			<property name="ShowQuality" value="true"/> 
+			
+			<property class="Attributes">
+				<property name="DegradationMax" value="50"/> 
+			</property>
+			<effect_group tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="0"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="50" />
+			</effect_group>
+		</item>
+	</append>
+</config>

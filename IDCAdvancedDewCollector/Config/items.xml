@@ -1,0 +1,81 @@
+<config>
+	<append xpath="/items">
+		<item name="adcMineralInfuser">
+			<property name="CustomIcon" value="Mineral_Infuser"/>
+			<property name="DescriptionKey" value="adcMineralInfuserDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="41000"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="adcAdvancedFilter">
+			<property name="CustomIcon" value="Advanced_Water_Filter"/>
+			<property name="DescriptionKey" value="adcAdvancedFilterDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="3000"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="adcLargeCatcher">
+			<property name="CustomIcon" value="Large_Tarp"/>
+			<property name="DescriptionKey" value="adcLargeCatcherDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="750"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="adcBigBarrel">
+			<property name="CustomIcon" value="Big_Barrel"/>
+			<property name="DescriptionKey" value="adcBigBarrelDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="750"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="adcEnhancedWater">
+			<property name="CustomIcon" value="drinkJarPureMineralWater"/>
+			<property name="DescriptionKey" value="adcEnhancedWaterDesc"/>
+			<property name="Tags" value="drinks"/>
+			<property name="HoldType" value="3"/>
+			<property name="DisplayType" value="waterDysentery"/>
+			<property name="Meshfile" value="@:Other/Items/Food/bottled_waterPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="EconomicValue" value="40"/>
+			<property name="CraftingIngredientTime" value="15"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1"/>
+				<property name="Sound_start" value="player_drinking"/>
+			</property>
+			<property name="Group" value="Food/Cooking,CFDrink/Cooking"/>
+			<effect_group tiered="false" name="Drink Tier 0/1">
+				<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="35"/>
+				<display_value name="dStaminaRegen" value=".15"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+				<display_value name="dCureDysentery" value=".2"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$buffDysenteryAddCurePerc" operation="add" value="20"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryAddCure"/>
+			</effect_group>
+			<effect_group tiered="false">
+				<requirement name="HasBuff" buff="buffIsOnFire"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffExtinguishFire"/>
+			</effect_group>
+		</item>
+	</append>
+</config>

@@ -1,0 +1,10 @@
+﻿<configs>
+	<!-- Game Options-->
+	<set xpath="//rect[@tab_key='xuiDF']/@tab_key">xuiCustomGameOptions</set>
+	<remove xpath="//gameoption[starts-with(@title, 'goCustom')]"/>
+	<append xpath="//rect[@tab_key='xuiCustomGameOptions']/grid">
+		<gameoption name="CustomScreamerGamestageAdd" title="goScreamerGamestageAddition" value_wrap="false" value_type="int" values="0,25,50,75,100,150,200,250,300" display_names="" value_localization_prefix="" default_value="50"/>
+		<gameoption name="CustomWanderingHordeIncreaseMin" title="goWanderingHordeAdditionMin" value_wrap="false" value_type="int" values="0,25,50,75,100,150,200,250,300" display_names="" value_localization_prefix="" default_value="25"/>
+		<gameoption name="CustomWanderingHordeIncreaseMax" title="goWanderingHordeAdditionMax" value_wrap="false" value_type="int" values="0,25,50,75,100,150,200,250,300" display_names="" value_localization_prefix="" default_value="100"/>
+	</append>
+</configs>

@@ -1,0 +1,38 @@
+<config>
+	<insertafter xpath="/items/item[@name='bucketRiverWater']/property[@name='InitialFillRatio']">
+			<property class="Action0">
+				<property name="Class" value="IDC_Core.ItemActionAddWater,IDCCoreV2"/>
+				<property name="Delay" value=".5"/>
+				<property name="Change_item_to" value="bucketEmpty"/>
+				<property name="Sound_start" value="bucketplace_water"/>
+			</property>
+	</insertafter>
+	<append xpath="/items">
+		<item name="idcFertilizer">
+			<property name="CustomIcon" value="sandbagSingle01"/>
+			<property name="CustomIconTint" value="32a852"/>
+			<property name="DescriptionKey" value="idcFertilizerDesc"/>
+			<property name="Meshfile" value="@:Other/Items/Food/seed_blueberry" />
+			<property name="Material" value="Morganic" />
+			<property name="HoldType" value="21" />
+			<property name="CraftingIngredientTime" value="8" />
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Stacknumber" value="750"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="idcGrowLights">
+			<property name="CustomIcon" value="lightCeiling07"/>
+			<property name="CustomIconTint" value="bdf0fc"/>
+			<property name="DescriptionKey" value="idcGrowLightsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Resources"/>
+		</item>
+	</append>
+</config>

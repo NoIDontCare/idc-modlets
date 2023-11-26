@@ -1,0 +1,8 @@
+Key,english
+xuiCustomGameOptions,Custom Options,,,,,
+goScreamerGamestageAddition,Screamer Gamestage Addition,,,,,
+goScreamerGamestageAdditionDesc,"Screamers will add this amount to your gamestage when they scream.\nOnly affects the zombies spawned by the screamer."
+goWanderingHordeAdditionMin,Wandering Horde Gamestage Addition Min
+goWanderingHordeAdditionMax,Wandering Horde Gamestage Addition Max
+goWanderingHordeAdditionMinDesc,The minimum value for wandering horde gamestage addition. A value between min and max is chosen.
+goWanderingHordeAdditionMaxDesc,The maximum value for wandering horde gamestage addition. A value between min and max is chosen.

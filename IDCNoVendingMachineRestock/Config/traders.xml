@@ -1,0 +1,21 @@
+<config>
+	<append xpath="/traders">
+		<!-- *** Trader Food/Candy Vending Machines ID:15 -->
+		<trader_info id="15" reset_interval="1" override_buy_markup="3" allow_sell="false">
+			<trader_items>
+				<item group="foodVending" count="4,8"/>
+				<item group="foodCandy" count="4,8"/>
+			</trader_items>
+		</trader_info>
+		<!-- *** Trader Drink Vending Machines ID:16 -->
+		<trader_info id="16" reset_interval="1" override_buy_markup="3" allow_sell="false">
+			<trader_items>
+				<item group="drinkVending" count="4,8"/>
+				<item group="drinkSpecialVending" count="4,8"/>
+			</trader_items>
+		</trader_info>
+	</append>
+	
+	<set xpath="/traders/trader_info[@id='4']/@reset_interval">80000</set>
+	<set xpath="/traders/trader_info[@id='10']/@reset_interval">80000</set>
+</config>

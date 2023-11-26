@@ -1,0 +1,59 @@
+<config>
+	<append xpath="/items">
+		<item name="idcMeatCooker">
+			<property name="CustomIcon" value="Meat_Cooker"/>
+			<property name="DescriptionKey" value="idcMeatCookerDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="idcEnhancedSkinningDevice">
+			<property name="CustomIcon" value="Skinning_Device"/>
+			<property name="DescriptionKey" value="idcEnhancedSkinningDeviceDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="idcUpgradedStorage">
+			<property name="CustomIcon" value="Upgraded_Storage"/>
+			<property name="DescriptionKey" value="idcUpgradedStorageDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="idcBetterAnimalBait">
+			<property name="CustomIcon" value="Animal_Bait"/>
+			<property name="DescriptionKey" value="idcBetterAnimalBaitDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		<item name="idcAnimalBait">
+			<property name="CustomIcon" value="Animal_Bait"/>
+			<property name="DescriptionKey" value="idcAnimalBaitDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="EconomicValue" value="0"/>
+			<property name="Group" value="Resources"/>
+		</item>
+	</append>
+</config>

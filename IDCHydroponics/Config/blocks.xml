@@ -1,0 +1,150 @@
+<config>
+	<append xpath="/blocks">
+		<block name="idcHydroponicsBasin">
+			<property name="CustomIcon" value="plantHydroponicAloe"/>
+			<property name="Class" value="IDC_Core.HydroponicsBasin, IDCCoreV2"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_water"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="idcHydroponicsBasinDesc"/>
+			<property name="Material" value="MFuelBarrelPolymer"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/plantHydroponicAloePrefab"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="116"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="RestrictSubmergedPlacement" value="true"/>
+			<property name="AllowedRotations" value="Basic90"/>
+			<property name="Path" value="solid"/>
+			<property name="IsDecoration" value="true"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="OpenSound" value="open_workbench"/>
+			<property name="CloseSound" value="close_workbench"/>
+			<property name="ConvertSound" value="bucketfill_water,1"/>
+			<property name="MinConvertTime" value="15600"/>
+			<property name="MaxConvertTime" value="26000"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="HeatMapStrength" value="1"/>
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="20"/>
+				<property name="resourceForgedIron" value="10"/>
+			</property>
+			<drop event="Destroy" name="idcHydroponicsBasin" count="1"/>
+			<property name="SortOrder1" value="B281"/>
+			<property name="SortOrder2" value="0100"/>
+			<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+			<property name="Tags" value="workstationSkill,twitch_workstation"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+			<property name="NumRolls" value="1"/>
+			<property name="HasModifiers" value="true"/>
+			<property name="HasItemConversions" value="true"/>
+			<property name="ContColumns" value="5"/>
+			<property name="ContRows" value="8"/>
+			<property name="NumModifiers" value="1"/>
+			<property name="NeedsSkyAccess" value="false"/>
+			
+			<property name="HasHydroponics" value="true"/>
+			<property name="WaterConsumption" value="50"/>
+			<property name="MaxWaterLevel" value="5000"/>
+			<property name="FuelItem" value="carBattery"/>
+			<property name="FuelPerProduction" value="5"/>
+			
+			<hydroponics_item seed="plantedPotato1" output="foodCropPotato" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedYucca1" output="foodCropYuccaFruit" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedCotton1" output="resourceCropCottonPlant" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedCoffee1" output="resourceCropCoffeeBeans" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedGoldenrod1" output="resourceCropGoldenrodPlant" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedAloe1" output="resourceCropAloeLeaf" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedBlueberry1" output="foodCropBlueberries" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedChrysanthemum1" output="resourceCropChrysanthemumPlant" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedCorn1" output="foodCropCorn" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedGraceCorn1" output="foodCropGraceCorn" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedHop1" output="resourceCropHopsFlower" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedPumpkin1" output="foodCropPumpkin" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedMushroom1" output="foodCropMushrooms" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedtreeGrassSeed1" output="resourceYuccaFibers" lower_range="30" upper_range="40" fertilizer_mult="1"/>
+			
+			<property name="FertilizerItems" value="idcFertilizer,100"/>
+			<property name="MaxFertilizerLevel" value="3000"/>
+			<property name="FertilizerConsumption" value="25"/>
+			
+			<modifier name="idcAdvancedGrowLights" effect="Speed" value="-0.3"/>
+		</block>
+		<block name="idcHydroponicsBasinVertical">
+			<property name="CustomIcon" value="plantHydroponicVertical"/>
+			<property name="Class" value="IDC_Core.HydroponicsBasin, IDCCoreV2"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_water"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="idcHydroponicsBasinDesc"/>
+			<property name="Material" value="MFuelBarrelPolymer"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="Entities/Plants/plantHydroponicVerticalPrefab"/>
+			<property name="MultiBlockDim" value="2,2,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="116"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="RestrictSubmergedPlacement" value="true"/>
+			<property name="AllowedRotations" value="Basic90"/>
+			<property name="Path" value="solid"/>
+			<property name="IsDecoration" value="true"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="OpenSound" value="open_workbench"/>
+			<property name="CloseSound" value="close_workbench"/>
+			<property name="ConvertSound" value="bucketfill_water,1"/>
+			<property name="MinConvertTime" value="15600"/>
+			<property name="MaxConvertTime" value="26000"/>
+			<property name="EconomicValue" value="5"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="HeatMapStrength" value="1"/>
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="20"/>
+				<property name="resourceForgedIron" value="10"/>
+			</property>
+			<drop event="Destroy" name="idcHydroponicsBasinVertical" count="1"/>
+			<property name="SortOrder1" value="B281"/>
+			<property name="SortOrder2" value="0100"/>
+			<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+			<property name="Tags" value="workstationSkill,twitch_workstation"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+			<property name="NumRolls" value="1"/>
+			<property name="HasModifiers" value="true"/>
+			<property name="HasItemConversions" value="true"/>
+			<property name="ContColumns" value="5"/>
+			<property name="ContRows" value="8"/>
+			<property name="NumModifiers" value="1"/>
+			<property name="NeedsSkyAccess" value="false"/>
+			
+			<property name="HasHydroponics" value="true"/>
+			<property name="WaterConsumption" value="50"/>
+			<property name="MaxWaterLevel" value="5000"/>
+			<property name="FuelItem" value="carBattery"/>
+			<property name="FuelPerProduction" value="50"/>
+			
+			<hydroponics_item seed="plantedPotato1" output="foodCropPotato" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedYucca1" output="foodCropYuccaFruit" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedCotton1" output="resourceCropCottonPlant" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedCoffee1" output="resourceCropCoffeeBeans" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedGoldenrod1" output="resourceCropGoldenrodPlant" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedAloe1" output="resourceCropAloeLeaf" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedBlueberry1" output="foodCropBlueberries" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedChrysanthemum1" output="resourceCropChrysanthemumPlant" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedCorn1" output="foodCropCorn" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedGraceCorn1" output="foodCropGraceCorn" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedHop1" output="resourceCropHopsFlower" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedPumpkin1" output="foodCropPumpkin" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedMushroom1" output="foodCropMushrooms" lower_range="2" upper_range="3" fertilizer_mult="2"/>
+			<hydroponics_item seed="plantedtreeGrassSeed1" output="resourceYuccaFibers" lower_range="30" upper_range="40" fertilizer_mult="1"/>
+			
+			<property name="FertilizerItems" value="idcFertilizer,100"/>
+			<property name="MaxFertilizerLevel" value="3000"/>
+			<property name="FertilizerConsumption" value="25"/>
+			
+			<modifier name="idcAdvancedGrowLights" effect="Speed" value="-0.3"/>
+		</block>
+	</append>
+</config>

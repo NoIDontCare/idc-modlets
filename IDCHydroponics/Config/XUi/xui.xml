@@ -1,0 +1,20 @@
+<config>
+	<append xpath="/xui/ruleset">
+		<window_group name="passive_collector_idcHydroponicsBasin" left_panel_valign_top="false" controller="XUiC_HydroponicsBasinWindowGroup, IDCCoreV2" close_compass_on_open="true">
+			<window name="windowHydroponics"/>
+			<window name="windowToolsHydroponicsBasin"/>
+			<window name="windowHydroponicsFuel"/>
+			<window name="windowHydroponicsSeedFertilizer"/>
+			<window name="windowHydroponicsWater"/>
+			<window name="windowNonPagingHeader"/>
+		</window_group>
+		<window_group name="passive_collector_idcHydroponicsBasinVertical" left_panel_valign_top="false" controller="XUiC_HydroponicsBasinWindowGroup, IDCCoreV2" close_compass_on_open="true">
+			<window name="windowHydroponics"/>
+			<window name="windowToolsHydroponicsBasin"/>
+			<window name="windowHydroponicsFuel"/>
+			<window name="windowHydroponicsSeedFertilizer"/>
+			<window name="windowHydroponicsWater"/>
+			<window name="windowNonPagingHeader"/>
+		</window_group>
+	</append>
+</config>

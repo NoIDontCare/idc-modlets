@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="IDCHordeOptions" />
+	<DisplayName value="I Dont Care Horde Options"/>
+	<Description value="Allows for more configuration to horde gamestages." />
+	<Author value="I Don't Care" />
+	<Version value="1.0.0.0" />
+	<Website value="" />
+</xml>

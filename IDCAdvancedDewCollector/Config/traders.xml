@@ -1,0 +1,22 @@
+<config>
+	<append xpath="/traders/trader_info[@id='1']">
+		<trader_items>
+			<item name="adcAdvancedFilter" count="1,1"/>
+			<item name="adcMineralInfuser" count="1,1"/>
+		</trader_items>
+	</append>
+	
+	<append xpath="/traders/trader_info[@id='2']">
+		<trader_items>
+			<item name="adcAdvancedFilter" count="1,1"/>
+			<item name="adcMineralInfuser" count="1,1"/>
+		</trader_items>
+	</append>
+	
+	<append xpath="/traders/trader_info[@id='7']">
+		<trader_items>
+			<item name="adcAdvancedFilter" count="1,1"/>
+			<item name="adcMineralInfuser" count="1,1"/>
+		</trader_items>
+	</append>
+</config>

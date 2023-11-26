@@ -1,0 +1,17 @@
+Key,english
+idcXuiModifiers,MODIFIERS
+idcXuiAnimalSnare,Contents
+idcXuiBait,Aniaml Feed
+cntIDCAnimalSnare,Animal Snare
+cntIDCAnimalSnareDesc,An animal snare. Will periodically produce meat, animal fat, or leather. Can be upgraded with tools.
+idcMeatCooker,Meat Cooker
+idcMeatCookerDesc,A meat cooker for the snare. It dropped out of culinary school so hopefully you like your steak well done.
+idcEnhancedSkinningDevice,Enhanced Skinning Device
+idcEnhancedSkinningDeviceDesc,An enhanced skinning device. Harvests more leather per roll.
+idcUpgradedStorage,Upgraded Snare Storage
+idcUpgradedStorageDesc,Makes the output area of the snare a have 25 slots.
+idcBetterAnimalBait,Better Animal Bait
+idcBetterAnimalBaitDesc,Strong smelling animal bait. Decreases production time by 20%.
+idcAnimalBait,Animal Bait
+idcAnimalBaitDesc,It attracts animals. Place in the animal snare.
+idcXuiBaitSnare,Bait

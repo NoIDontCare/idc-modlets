@@ -1,0 +1,43 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="cntIDCAnimalSnare" count="1" craft_time="450" craft_exp_gain="500" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceScrapPolymers" count="50"/>
+			<ingredient name="resourceForgedIron" count="80"/>
+		</recipe>
+		
+		<recipe name="idcUpgradedStorage" count="1" craft_time="45" craft_exp_gain="50" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceNail" count="40"/>
+			<ingredient name="resourceForgedIron" count="15"/>
+		</recipe>
+		
+		<recipe name="idcMeatCooker" count="1" craft_time="20" craft_exp_gain="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="campfire" count="1"/>
+			<ingredient name="toolCookingGrill" count="2"/>
+			<ingredient name="resourceDuctTape" count="5"/>
+		</recipe>
+		
+		<recipe name="idcEnhancedSkinningDevice" count="1" craft_time="45" craft_exp_gain="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="meleeWpnBladeT1HuntingKnife" count="2"/>
+			<ingredient name="resourceDuctTape" count="4"/>
+		</recipe>
+		
+		<recipe name="idcBetterAnimalBait" count="1" craft_time="10" craft_exp_gain="10" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="100"/>
+			<ingredient name="foodCropCorn" count="20"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="foodCanDogfood" count="2"/>
+		</recipe>
+		
+		<recipe name="idcAnimalBait" count="3" craft_time="1" craft_exp_gain="5">
+			<ingredient name="foodCropCorn" count="1"/>
+		</recipe>
+		
+		<recipe name="idcAnimalBait" count="3" craft_time="1" craft_exp_gain="5">
+			<ingredient name="foodCropPotato" count="1"/>
+		</recipe>
+		
+		<recipe name="idcAnimalBait" count="3" craft_time="1" craft_exp_gain="5">
+			<ingredient name="foodCropBlueberries" count="1"/>
+		</recipe>
+	</append>
+</config>

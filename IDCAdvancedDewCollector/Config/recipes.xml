@@ -1,0 +1,21 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="cntAdvancedDewCollector" count="1" craft_time="600" craft_exp_gain="500" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="adcAdvancedFilter" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="100"/>
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceElectricParts" count="35"/>
+			<ingredient name="resourceWood" count="150"/>
+		</recipe>
+		
+		<recipe name="adcBigBarrel" count="1" craft_time="30" craft_exp_gain="20" craft_area="workbench">
+			<ingredient name="resourceWood" count="300"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+		</recipe>
+		
+		<recipe name="adcLargeCatcher" count="1" craft_time="45" craft_exp_gain="10" craft_area="workbench">
+			<ingredient name="resourceScrapPolymers" count="250"/>
+			<ingredient name="resourceDuctTape" count="30"/>
+		</recipe>
+	</append>
+</config>

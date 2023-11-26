@@ -1,0 +1,5 @@
+Key,english
+cntTraderVendingMachine2,Vending Machine
+cntTraderVendingMachineEnergy,Vending Machine
+cntTraderVendingMachineWater,Vending Machine
+cntTraderVendingMachineSnacksFull,Vending Machine

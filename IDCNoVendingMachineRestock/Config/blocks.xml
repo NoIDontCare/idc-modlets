@@ -1,0 +1,41 @@
+<config>
+	<append xpath="/blocks">
+		<block name="cntTraderVendingMachine2">
+			<!-- SODA -->
+			<property name="Extends" value="cntVendingMachine2Broken"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="VendingMachine"/>
+			<property name="CustomIcon" value="cntVendingMachine2Broken"/>
+			<property name="Model" value="Entities/Crafting/sodaVendingMachinePrefab"/>
+			<property name="TraderID" value="16"/>
+			<property name="SortOrder2" value="0005"/>
+		</block>
+		<block name="cntTraderVendingMachineEnergy">
+			<property name="Extends" value="cntVendingMachine2Broken"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="VendingMachine"/>
+			<property name="CustomIcon" value="cntVendingMachineEnergyBroken"/>
+			<property name="Model" value="Entities/Crafting/sodaVendingMachineEnergyPrefab"/>
+			<property name="TraderID" value="16"/>
+			<property name="SortOrder2" value="0006"/>
+		</block>
+		<block name="cntTraderVendingMachineWater">
+			<property name="Extends" value="cntVendingMachine2Broken"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="VendingMachine"/>
+			<property name="CustomIcon" value="cntVendingMachineWaterBroken"/>
+			<property name="Model" value="Entities/Crafting/sodaVendingMachineWaterPrefab"/>
+			<property name="TraderID" value="16"/>
+			<property name="SortOrder2" value="0007"/>
+		</block>
+		<block name="cntTraderVendingMachineSnacksFull">
+			<property name="Extends" value="cntVendingMachine2Broken" param1="CustomIcon"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Class" value="VendingMachine"/>
+			<property name="Model" value="Entities/Commercial/vendingMachineSnacksFullPrefab"/>
+			<property name="ModelOffset" value="0,0,-0.5"/>
+			<property name="TraderID" value="15"/>
+			<property name="SortOrder2" value="0009"/>
+		</block>
+	</append>
+</config>

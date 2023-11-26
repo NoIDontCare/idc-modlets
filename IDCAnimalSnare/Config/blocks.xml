@@ -1,0 +1,65 @@
+<config>
+	<append xpath="/blocks">
+		<block name="cntIDCAnimalSnare">
+			<property name="CustomIcon" value="AnimalSnare"/>
+			<property name="Class" value="PassiveCollector, IDCCoreV2"/>
+			<property name="UnlockedBy" value="craftingWorkstations"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_water"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="DescriptionKey" value="cntIDCAnimalSnareDesc"/>
+			<property name="Material" value="MFuelBarrelPolymer"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Assets/idc_animal_snare.unity3d?Animal_Cage_Prefab_V2"/>
+			<property name="MultiBlockDim" value="3,1,1"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="116"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="RestrictSubmergedPlacement" value="true"/>
+			<property name="AllowedRotations" value="Basic90"/>
+			<property name="Path" value="solid"/>
+			<property name="IsDecoration" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="OpenSound" value="open_workbench"/>
+			<property name="CloseSound" value="close_workbench"/>
+			<property name="ConvertSound" value="Animals/rabbitpain,10"/>
+			<property name="MinConvertTime" value="21000"/>
+			<property name="MaxConvertTime" value="30000"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="MaxDamage" value="1000"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property class="RepairItems">
+				<property name="resourceScrapPolymers" value="20"/>
+				<property name="resourceForgedIron" value="10"/>
+			</property>
+			<drop event="Destroy" name="cntIDCAnimalSnare" count="1"/>
+			<property name="SortOrder1" value="B281"/>
+			<property name="SortOrder2" value="0100"/>
+			<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+			<property name="Tags" value="workstationSkill,twitch_workstation"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+			
+			<property name="HasModifiers" value="true"/>
+			<property name="HasItemConversions" value="true"/>
+			
+			<property name="ContColumns" value="5"/>
+			<property name="ContRows" value="2"/>
+			<property name="NumModifiersSlots" value="4"/>
+			
+			<item_conversion item="foodRawMeat" lower_range="3" upper_range="7"/>
+			<item_conversion item="resourceAnimalFat" lower_range="2" upper_range="4"/>
+			<item_conversion item="resourceLeather" lower_range="1" upper_range="3"/>
+			
+			<property name="FuelItem" value="idcAnimalBait"/>
+			
+			<modifier name="idcMeatCooker" effect="ReplaceItem" value="foodRawMeat" secondary="foodCharredMeat"/>
+			<modifier name="idcMeatCooker" effect="ItemQuantity" value="foodCharredMeat" secondary="1" thirdValue="3"/>
+			<modifier name="idcEnhancedSkinningDevice" effect="ItemQuantity" value="resourceLeather" secondary="4" thirdValue="6"/>
+			<modifier name="idcUpgradedStorage" effect="OutputSlots" value="3"/>
+			<modifier name="idcBetterAnimalBait" effect="Speed" value="-0.2"/>
+		</block>
+	</append>
+</config>

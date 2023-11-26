@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="IDCReducedVehicleDamage" />
+	<DisplayName value="I Dont Care Reduced Vehicle Damage"/>
+	<Description value="Reduces damage taken by vehicles by 75%." />
+	<Author value="I Don't Care" />
+	<Version value="1.0.0.0" />
+	<Website value="" />
+</xml>

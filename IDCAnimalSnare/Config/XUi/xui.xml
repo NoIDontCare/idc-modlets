@@ -1,0 +1,10 @@
+<config>
+	<append xpath="/xui/ruleset">
+		<window_group name="passive_collector_cntIDCAnimalSnare" left_panel_valign_top="false" controller="XUiC_PassiveCollectorWindowGroup, IDCCoreV2" close_compass_on_open="true">
+			<window name="windowAnimalSnare"/>
+			<window name="windowToolsAnimalSnare"/>
+			<window name="idcWindowSnareFuel"/>
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	</append>
+</config>

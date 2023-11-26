@@ -1,0 +1,8 @@
+<config>
+	<append xpath="/lootcontainers">
+		<lootcontainer name="beehiveTreeStump" count="1,2" size="6,2" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" loot_quality_template="qualBaseTemplate">
+			<item name="foodHoney" loot_prob_template="high" count="1,2"/>
+			<item name="honeyBee" loot_prob_template="med" count="1"/>
+		</lootcontainer>
+	</append>
+</config>

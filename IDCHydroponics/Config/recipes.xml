@@ -1,0 +1,27 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="idcHydroponicsBasin" count="1" craft_time="200" craft_exp_gain="500" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+			<ingredient name="resourceDuctTape" count="15"/>
+			<ingredient name="resourceSilverNugget" count="5"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+		</recipe>
+		<recipe name="idcHydroponicsBasinVertical" count="1" craft_time="200" craft_exp_gain="500" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="30"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+			<ingredient name="resourceDuctTape" count="15"/>
+			<ingredient name="resourceSilverNugget" count="5"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+		</recipe>
+		<recipe name="idcGrowLights" count="1" craft_time="50" craft_exp_gain="500" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="10"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+		</recipe>
+		<recipe name="idcFertilizer" count="1" craft_time="4" craft_exp_gain="50">
+			<ingredient name="resourceClayLump" count="4"/>
+			<ingredient name="foodRottingFlesh" count="2"/>
+		</recipe>
+	</append>
+</config>

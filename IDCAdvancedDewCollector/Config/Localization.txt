@@ -1,0 +1,15 @@
+Key,english
+cntAdvancedDewCollector,Advanced Dew Collector
+advancedDewCollectorDesc,A technologically advanced version of the dew collector. Can be upgraded by placing tools into the appropriate slots.
+xuiAdvancedDewCollector,Advanced Dew Collector
+adcMineralInfuser,Mineral Infuser
+adcAdvancedFilter,Advanced Water Filter
+adcLargeCatcher,Large Water Catcher
+adcBigBarrel,Large Water Barrel
+adcBigBarrelDesc,It's a water barrel but bigger. Do I really need to explain further?\n\nIncreases capacity to 9 slots.
+adcAdvancedFilterDesc,An even better water filter. Makes use of highly complicated purification techniques.\n\nIncreases speed by 20%
+adcMineralInfuserDesc,State of the art mineral infusing technology. Takes boring water and infuses it with your daily intake of vitamins and minerals (at least that's what the package says).\n\nProduces enhanced water instead of regular water.
+adcLargeCatcherDesc,It's a large tarp. It collects more water than a smaller one.\n\nCauses block to produce 3 waters at a time.
+adcEnhancedWater,Infused Water
+adcEnhancedWaterDesc,While not as powerful as mineral water its still better than regular water.
+adcXuiModifiers,MODIFIERS

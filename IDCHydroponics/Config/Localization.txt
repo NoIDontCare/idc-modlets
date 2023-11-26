@@ -1,0 +1,15 @@
+Key,english
+idcHydroponicsBasin,Hydroponics Basin
+idcXuiHydroponics,Plants
+idcXuiBattery,Battery
+idcXuiSeed,Seed
+idcXuiWater,Water Level
+idcXuiFertilizerBar,Fertilizer Level
+idcXuiFertilizer,Fertilizer
+idcHydroponicsBasinVertical,Hydroponics Basin (Vertical)
+idcHydroponicsBasinDesc,"A hydroponics basin. Will grow crops in a compact space as long as water, seed, and a battery is provided. Fertilizer can optionally be added to increase crop yield."
+idcGrowLights,Grow Lights
+idcGrowLightsDesc,Growing lights. Increases speed of hydroponic basins by 30%.
+idcFertilizer,Fertilizer
+idcFertilizerDesc,A mix of soil and the undead. Increases hydroponics yield.
+idcLabelGrowLights,Grow Light

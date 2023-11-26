@@ -1,6 +1,21 @@
 # idc-modlets
 Repository holding my modlets.
 
+## Advanced Dew Collector
+An improved version of the vanilla dew collector. Full information available [here](https://www.nexusmods.com/7daystodie/mods/3150)
+
+## Animal Snare
+Requires IDC Core: https://www.nexusmods.com/7daystodie/mods/3341/
+
+Taking the functionality from my advanced dew collector mod, I have made an animal snare that functions in a similar way. The snare will produce raw meat, animal fat, or leather every 6 to 8.5 in-game hours provided bait is in the bait slot. It will pick one item randomly and pull from the quantities below. More information available [here](https://www.nexusmods.com/7daystodie/mods/3343)
+
+## Beehive
+Requires IDC Core. https://www.nexusmods.com/7daystodie/mods/3341
+
+Adds beehives that produce honey.  
+
+Requires a honey bee to be placed inside the Bee slot in order to function. Honey bees have a limited lifespan. They can be found naturally inside new lootable tree stumps that spawn in the pine forest biome.
+
 ## Expanded Writable Storage
 Adds writable storages with 120 slots. ONLY COMPATIBLE WITH DARKNESS FALLS. WILL NOT WORK WITH VANILLA.
 

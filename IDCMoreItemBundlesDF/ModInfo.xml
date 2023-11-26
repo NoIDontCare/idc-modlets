@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="IDCMoreItemBundlesDF" />
+	<DisplayName value="IDC More Item Bundles"/>
+	<Description value="Adds bundles for various items." />
+	<Author value="I Don't Care" />
+	<Version value="2.0.0.0" />
+	<Website value="" />
+</xml>

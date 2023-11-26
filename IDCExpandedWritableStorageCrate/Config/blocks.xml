@@ -1,0 +1,106 @@
+<config>
+	<append xpath="/blocks">
+		 <!-- PLAYER_LOCKED_WRITABLE_WOODEN_CUBE_LOOT_CRATE -->
+        <block name="cntStorageGenericSignedLarge"><!-- TO_BE_REPLACED_LATER -->
+            <property name="CreativeMode" value="Player"/>
+            <property name="Class" value="SecureLootSigned"/>
+            <property name="LootList" value="storageCrateLarge"/>
+            <property name="CustomIcon" value="cntShippingCrateHero"/>
+            <property name="DescriptionKey" value="cntStorageGenericSignedDesc"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/crate_storeSignablePrefab.prefab"/>
+            <property name="Material" value="MwoodReinforced"/>
+            <property name="Texture" value="572"/>
+            <property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+            <property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="2500"/>
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+			<property class="UpgradeBlock">
+                <property name="ToBlock" value="cntStorageGenericSignedBroadcast" />
+                <property name="Item" value="resourceBroadcastUpgrade" />
+                <property name="ItemCount" value="1" />
+                <property name="UpgradeHitCount" value="4" />
+            </property>
+            <drop event="Destroy" name="resourceWood" count="1,3"/>
+            <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntStorageGenericSignedInsecureLarge"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0010"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+		<!-- PLAYER_UNLOCKED_WRITABLE_WOODEN_CUBE_LOOT_CRATE -->
+		<block name="cntStorageGenericSignedInsecureLarge"><!-- TO_BE_REPLACED_LATER -->
+			<property name="CreativeMode" value="None"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageCrateLarge"/>
+			<property name="CustomIcon" value="cntShippingCrateHero"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="@:Entities/LootContainers/crate_storePrefab.prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property name="Path" value="solid"/>
+			<property name="MaxDamage" value="2500"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="SortOrder1" value="B106"/>
+			<property name="SortOrder2" value="0011"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+		
+		<!-- Storage that broadcasts inventory for remote crafting -->
+		<block name="cntStorageGenericSignedBroadcastLarge">
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="cntShippingCrateHero"/>
+			<property name="DescriptionKey" value="cntStorageGenericSignedBroadcastDesc"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#Entities/LootContainers?crate_storeSignablePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacer"/> <!-- sign model, not needed for cube -->
+			<property name="Tags" value="door"/>
+			<property name="Class" value="SecureLootSigned"/>
+			<property name="LootList" value="storageCrateBroadcastLarge"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="MaxDamage" value="2500"/>
+			<property name="Texture" value="572"/>
+			<property name="UseGlobalUV" value="L,L,L,L,L,L"/>
+			<property name="FuelValue" value="300"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<property name="DowngradeBlock" value="cntStorageGenericSignedInsecureBroadcastLarge"/>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="EconomicValue" value="6"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+
+		<block name="cntStorageGenericSignedInsecureBroadcastLarge">
+			<property name="CreativeMode" value="Test"/>
+			<property name="CustomIcon" value="cntShippingCrateHero"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="storageCrateBroadcastLarge"/>
+			<property name="Material" value="MwoodReinforced"/>
+			<property name="MaxDamage" value="2500"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab"/>
+			<property name="UseGlobalUV" value="L,L,G,G,G,G"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="resourceWood" count="1,3"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+		</block>
+	</append>
+</config>

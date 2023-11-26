@@ -1,0 +1,5 @@
+Key,English
+cntStorageGenericSignedLarge,Large Writable Storage Box
+cntStorageGenericSignedInsecureLarge,Large Writable Storage Box Insecure
+cntStorageGenericSignedBroadcastLarge,Large Writable Storage Box (Remote Crafting Enabled)
+cntStorageGenericSignedInsecureBroadcastLarge,Large Writable Storage Box Insecure (Remote Crafting Enabled)

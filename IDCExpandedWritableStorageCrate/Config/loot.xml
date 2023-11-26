@@ -1,0 +1,10 @@
+<config>
+	<append xpath="/lootcontainers">
+		<lootcontainer name="storageCrateLarge" count="0" size="12,10" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		<lootcontainer name="storageCrateBroadcastLarge" count="0" size="12,10" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="1,2"/>
+		</lootcontainer>
+	</append>
+</config>

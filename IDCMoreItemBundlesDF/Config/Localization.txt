@@ -1,0 +1,41 @@
+Key,english
+resourceClothBundle,Stack of Cloth (500)
+resourceBrassBundle,Stack of Brass (10000)
+resourceLeatherBundle,Stack of Leather (500)
+resourceBoneBundle,Stack of Bones (3000)
+resourceRottingFleshBundle,Stack of Rotting Flesh (125)
+resourceAnimalFatBundle,Stack of Animal Fat (500)
+resourceCobblestonesBundle,Stack of Cobblestones (1000)
+resourceConcreteMixBundle,Stack of Concrete (1000)
+resourceCementBundle,Stack of Cement (1000)
+resourcePaperBundle,Stack of Paper (500)
+resourceElectricPartsBundle,Stack of Electrical Parts (1000)
+resourceMechanicalPartsBundle,Stack of Mechanical Parts (1000)
+resourceOilBundle,Stack of Oil (50)
+resourceFeatherBundle,Stack of Feathers (500)
+resourceForgedIronBundle,Stack of Forged Iron (500)
+resourceForgedSteelBundle,Stack of Forged Steel (500)
+ammoDartIronBundle,Iron Dart Bundle (500)
+ammoDartTitaniumBundle,Titanium Dart Bundle (500)
+drinkJarBoiledWaterBundle,Boiled Water Bundle (10)
+foodRawMeatBundle,Raw Meat Bundle (125)
+resourceClothBundleDesc,This is a compact stack of cloth. Use this item to open and unpack it.
+resourceBrassBundleDesc,This is a compact stack of brass. Use this item to open and unpack it.
+resourceLeatherBundleDesc,This is a compact stack of leather. Use this item to open and unpack it.
+resourceBoneBundleDesc,This is a compact stack of bones. Use this item to open and unpack it.
+resourceRottingFleshBundleDesc,This is a compact stack of rotting flesh. Use this item to open and unpack it.
+resourceAnimalFatBundleDesc,This is a compact stack of animal fat. Use this item to open and unpack it.
+resourceCobblestonesBundleDesc,This is a compact stack of cobblestones. Use this item to open and unpack it.
+resourceConcreteMixBundleDesc,This is a compact stack of concrete mix. Use this item to open and unpack it.
+resourceCementBundleDesc,This is a compact stack of cement. Use this item to open and unpack it.
+resourcePaperBundleDesc,This is a compact stack of paper. Use this item to open and unpack it.
+resourceElectricPartsBundleDesc,This is a compact stack of electrical parts. Use this item to open and unpack it.
+resourceMechanicalPartsBundleDesc,This is a compact stack of mechanical parts. Use this item to open and unpack it.
+resourceOilBundleDesc,This is a compact stack of oil. Use this item to open and unpack it.
+resourceFeatherBundleDesc,This is a compact stack of feathers. Use this item to open and unpack it.
+ammoDartIronBundleDesc,This is a compact stack of iron darts. Use this item to open and unpack it.
+ammoDartTitaniumBundleDesc,This is a compact stack of titanium darts. Use this item to open and unpack it.
+resourceForgedIronBundleDesc,This is a compact stack of forged iron. Use this item to open and unpack it.
+resourceForgedSteelBundleDesc,This is a compact stack of forged steel. Use this item to open and unpack it.
+drinkJarBoiledWaterBundleDesc,This is a compact stack of boiled water. Use this item to open and unpack it.
+foodRawMeatBundleDesc,This is a compact stack of raw meat. Use this item to open and unpack it.

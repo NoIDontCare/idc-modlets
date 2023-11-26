@@ -1,0 +1,83 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="resourceClothBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceCloth" count="500"/>
+		</recipe>
+		
+		<recipe name="resourceBrassBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceScrapBrass" count="10000"/>
+		</recipe>
+		
+		<recipe name="resourceLeatherBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceLeather" count="500"/>
+		</recipe>
+		
+		<recipe name="resourceBoneBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceBone" count="3000"/>
+		</recipe>
+		
+		<recipe name="resourceRottingFleshBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="foodRottingFlesh" count="125"/>
+		</recipe>
+		
+		<recipe name="resourceAnimalFatBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceAnimalFat" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceCobblestonesBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceCobblestones" count="1000"/>
+		</recipe>
+		
+		<recipe name="resourceConcreteMixBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceConcreteMix" count="1000"/>
+		</recipe>
+		
+		<recipe name="resourceCementBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceCement" count="1000"/>
+		</recipe>
+		
+		<recipe name="resourcePaperBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourcePaper" count="500"/>
+		</recipe>
+		
+		<recipe name="resourceElectricPartsBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceElectricParts" count="1000"/>
+		</recipe>
+		
+		<recipe name="resourceMechanicalPartsBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceMechanicalParts" count="1000"/>
+		</recipe>
+		
+		<recipe name="resourceOilBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceOil" count="50"/>
+		</recipe>
+		
+		<recipe name="resourceForgedIronBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceForgedIron" count="500"/>
+		</recipe>
+		
+		<recipe name="resourceForgedSteelBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceForgedSteel" count="500"/>
+		</recipe>
+		
+		<recipe name="resourceFeatherBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="resourceFeather" count="500"/>
+		</recipe>
+		
+		<recipe name="ammoDartIronBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="ammoDartIron" count="500"/>
+		</recipe>
+		
+		<recipe name="ammoDartTitaniumBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="DFammoDartTitanium" count="500"/>
+		</recipe>
+		
+		<recipe name="drinkJarBoiledWaterBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="drinkJarBoiledWater" count="10"/>
+		</recipe>
+		
+		<recipe name="foodRawMeatBundle" count="1" craft_time="10" craft_exp_gain="0">
+			<ingredient name="foodRawMeat" count="125"/>
+		</recipe>
+	</append>
+</config>

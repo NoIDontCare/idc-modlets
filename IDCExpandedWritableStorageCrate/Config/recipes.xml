@@ -1,0 +1,8 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="cntStorageGenericSignedLarge" count="1" craft_area="workbench" craft_tool="meleeToolRepairT1ClawHammer">
+			<ingredient name="resourceWood" count="400"/>
+			<ingredient name="resourceNail" count="50"/>
+		</recipe>
+	</append>
+</config>

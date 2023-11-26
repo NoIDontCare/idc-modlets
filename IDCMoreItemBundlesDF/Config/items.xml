@@ -1,0 +1,215 @@
+<config>
+	<append xpath="/items">
+		<item name="resourceClothBundle">
+			<property name="CustomIcon" value="resourceCloth"/>
+			<property name="ItemTypeIcon" value="treasure"/>
+			<property name="DescriptionKey" value="resourceClothBundleDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Morganic"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Resources"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+				<property name="Sound_start" value="close_garbage"/>
+				<property name="Create_item" value="resourceCloth"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="resourceBrassBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceScrapBrass"/>
+			<property name="DescriptionKey" value="resourceBrassBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceScrapBrass"/>
+				<property name="Create_item_count" value="10000"/>
+			</property>
+		</item>
+		
+		<item name="resourceLeatherBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceLeather"/>
+			<property name="DescriptionKey" value="resourceLeatherBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceLeather"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="resourceBoneBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceBone"/>
+			<property name="DescriptionKey" value="resourceBoneBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceBone"/>
+				<property name="Create_item_count" value="3000"/>
+			</property>
+		</item>
+		
+		<item name="resourceRottingFleshBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="foodRottingFlesh"/>
+			<property name="DescriptionKey" value="resourceRottingFleshBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodRottingFlesh"/>
+				<property name="Create_item_count" value="125"/>
+			</property>
+		</item>
+		
+		<item name="resourceAnimalFatBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceAnimalFat"/>
+			<property name="DescriptionKey" value="resourceAnimalFatBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceAnimalFat"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="resourceCobblestonesBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceCobblestones"/>
+			<property name="DescriptionKey" value="resourceCobblestonesBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceCobblestones"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+		
+		<item name="resourceConcreteMixBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceConcreteMix"/>
+			<property name="DescriptionKey" value="resourceConcreteMixBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceConcreteMix"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+		
+		<item name="resourceCementBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceCement"/>
+			<property name="DescriptionKey" value="resourceCementBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceCement"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+		
+		<item name="resourcePaperBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourcePaper"/>
+			<property name="DescriptionKey" value="resourcePaperBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourcePaper"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="resourceElectricPartsBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceElectricParts"/>
+			<property name="DescriptionKey" value="resourceElectricPartsBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceElectricParts"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+		
+		<item name="resourceMechanicalPartsBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceMechanicalParts"/>
+			<property name="DescriptionKey" value="resourceMechanicalPartsBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceMechanicalParts"/>
+				<property name="Create_item_count" value="1000"/>
+			</property>
+		</item>
+		
+		<item name="resourceOilBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceOil"/>
+			<property name="DescriptionKey" value="resourceOilBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceOil"/>
+				<property name="Create_item_count" value="50"/>
+			</property>
+		</item>
+		
+		<item name="resourceFeatherBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceFeather"/>
+			<property name="DescriptionKey" value="resourceFeatherBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceFeather"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="resourceForgedIronBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceForgedIron"/>
+			<property name="DescriptionKey" value="resourceForgedIronBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceForgedIron"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="resourceForgedSteelBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="resourceForgedSteel"/>
+			<property name="DescriptionKey" value="resourceForgedSteelBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="resourceForgedSteel"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="ammoDartIronBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="ammoDartIron"/>
+			<property name="DescriptionKey" value="ammoDartIronBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="ammoDartIron"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="ammoDartTitaniumBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="ammoDartIron"/>
+			<property name="CustomIconTint" value="0033FF"/>
+			<property name="DescriptionKey" value="ammoDartTitaniumBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="DFammoDartTitanium"/>
+				<property name="Create_item_count" value="500"/>
+			</property>
+		</item>
+		
+		<item name="drinkJarBoiledWaterBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="drinkJarBoiledWater"/>
+			<property name="DescriptionKey" value="drinkJarBoiledWaterBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="drinkJarBoiledWater"/>
+				<property name="Create_item_count" value="10"/>
+			</property>
+		</item>
+		
+		<item name="foodRawMeatBundle">
+			<property name="Extends" value="resourceClothBundle"/>
+			<property name="CustomIcon" value="foodRawMeat"/>
+			<property name="DescriptionKey" value="foodRawMeatBundleDesc"/>
+			<property class="Action0">
+				<property name="Create_item" value="foodRawMeat"/>
+				<property name="Create_item_count" value="125"/>
+			</property>
+		</item>
+	</append>
+</config>

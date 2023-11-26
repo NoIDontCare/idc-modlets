@@ -1,4 +1,5 @@
 <config>
+	<csv xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedRecipes']/property[@name='bindtoWorkstation']/@value" delim="," op="add">storageCrateBroadcastLarge</csv>
 	<append xpath="/blocks">
 		 <!-- PLAYER_LOCKED_WRITABLE_WOODEN_CUBE_LOOT_CRATE -->
         <block name="cntStorageGenericSignedLarge"><!-- TO_BE_REPLACED_LATER -->
@@ -20,7 +21,7 @@
                 <property name="resourceWood" value="10"/>
             </property>
 			<property class="UpgradeBlock">
-                <property name="ToBlock" value="cntStorageGenericSignedBroadcast" />
+                <property name="ToBlock" value="cntStorageGenericSignedBroadcastLarge" />
                 <property name="Item" value="resourceBroadcastUpgrade" />
                 <property name="ItemCount" value="1" />
                 <property name="UpgradeHitCount" value="4" />
